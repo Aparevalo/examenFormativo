@@ -1,4 +1,5 @@
 # Lista de Tareas App
+https://github.com/Aparevalo/examenFormativo
 
 Esta es una aplicación de Lista de Tareas desarrollada en Flutter con el uso del patrón Provider para gestionar el estado de las tareas.
 
@@ -9,7 +10,7 @@ Esta es una aplicación de Lista de Tareas desarrollada en Flutter con el uso de
 
 2. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/Aparevalo/examenFormativo.git
    cd tu-repositorio
    ```
 
