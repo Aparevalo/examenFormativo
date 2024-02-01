@@ -25,7 +25,7 @@ Esta es una aplicación de Lista de Tareas desarrollada en Flutter con el uso de
 
 ## Estructura de Archivos
 
-- **lib/task_model.dart:** Define la clase `Task` que representa el modelo de una tarea.
+- **lib/modelo/task.dart:** Define la clase `Task` que representa el modelo de una tarea.
 
   ```dart
   class Task {
@@ -37,7 +37,7 @@ Esta es una aplicación de Lista de Tareas desarrollada en Flutter con el uso de
   }
   ```
 
-- **lib/task_provider.dart:** Implementa el patrón Provider y maneja el estado de las tareas en la aplicación.
+- **lib/providers/taskProvider.dart:** Implementa el patrón Provider y maneja el estado de las tareas en la aplicación.
 
   ```dart
     import 'package:flutter/material.dart';
