@@ -86,21 +86,21 @@ Esta es una aplicación de Lista de Tareas desarrollada en Flutter con el uso de
 - **lib/main.dart:** Configura la aplicación Flutter, estableciendo `TaskProvider` como proveedor principal y definiendo `TaskListScreen` como la pantalla de inicio.
 
   ```dart
-  class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => TaskProvider(),
-      child: MaterialApp(
-        title: 'Lista de Tareas',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
+    class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return ChangeNotifierProvider(
+        create: (context) => TaskProvider(),
+        child: MaterialApp(
+            title: 'Lista de Tareas',
+            theme: ThemeData(
+            primarySwatch: Colors.blue,
+            ),
+            home: TaskListScreen(),
         ),
-        home: TaskListScreen(),
-      ),
-    );
-  }
-}
+        );
+    }
+    }
   ```
 
 ## Funcionalidades Clave
